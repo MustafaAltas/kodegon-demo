@@ -1,0 +1,34 @@
+@import "./variables/variable";
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 630px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 60px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.216);
+  div{
+    padding-bottom: 1rem;
+    transition: all 0.5s;
+  }
+  div:hover{
+    border-bottom: 3px solid red;
+    transform: translate3d(100px)
+  }
+  a {
+    color: black;
+    font-family: $navbarFontFamily;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7f7f7f;
+    transition: all 0.5s;
+    padding-bottom: 1rem;
+  }
+}

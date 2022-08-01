@@ -1,0 +1,19 @@
+@import "banner";
+@import "pagination";
+@import "navbar";
+@import "content";
+@import "video";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 3018px;
+  background: #FFFFFF;
+  margin: auto;
+}

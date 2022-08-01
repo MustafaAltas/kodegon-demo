@@ -1,0 +1,21 @@
+@import "./variables/variable";
+
+.content {
+  position: absolute;
+  left: 61px;
+  top: 728px;
+  width: 873px;
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  h2 {
+    width: 213px;
+    border-bottom: 3px solid #de0f17;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: $navbarFontFamily;
+  }
+}
