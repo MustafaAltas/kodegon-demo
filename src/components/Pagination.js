@@ -3,7 +3,7 @@ import unionR from "../assets/Union-right.svg"
 import unionL from "../assets/Union-left.svg"
 function Pagination() {
   return (
-    <div>
+    <div className='pagination'>
       <div className='rentagle-190'></div>
       <button className='union-left'><img src={unionL} alt="" /></button>
       <button className='union-right'><img src={unionR} alt="" /></button>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { AiOutlinePlus } from "react-icons/ai";
 function Content() {
   return (
     <div className="content">
@@ -47,6 +47,12 @@ function Content() {
         lacus ex, eu vulputate risus dapibus et. Cras et elementum augue.
         Suspendisse sit amet tristique libero.
       </p>
+      <div className="content-last">
+        <div>
+          <p>Yazının Devamı</p>
+          <AiOutlinePlus />
+        </div>
+      </div>
     </div>
   );
 }

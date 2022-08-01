@@ -46,31 +46,31 @@
   opacity: 0.3;
 }
 .rentagle-195 {
-    position: absolute;
-    width:70%;
-    height: 2px;
-    left: 260px;
-    top: 528px;
-    background: #FFFFFF;
-    opacity: 0.3;
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  left: 260px;
+  top: 528px;
+  background: #ffffff;
+  opacity: 0.3;
 }
 .union-left {
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    left: 78.38px;
-    top: 520px;
-    background-color:transparent ;
-    border: transparent;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 78.38px;
+  top: 520px;
+  background-color: transparent;
+  border: transparent;
 }
 .union-right {
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    left: 130px;
-    top: 520px;
-    background-color:transparent ;
-    border: transparent;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 130px;
+  top: 520px;
+  background-color: transparent;
+  border: transparent;
 }
 .vektor-1 {
   position: absolute;
@@ -113,4 +113,74 @@
   left: 245px;
   top: 525px;
   border: 2px solid rgba(255, 255, 255, 0.3);
+}
+@media screen and (max-width: 600px) {
+
+  .rentagle-190 {
+    position: absolute;
+    width: 160px;
+    height: 2px;
+    left: 0px;
+    top: 420px;
+
+    background: #ffffff;
+    opacity: 0.3;
+  }
+  .rentagle-191 {
+    position: absolute;
+    width: 13px;
+    height: 2px;
+    left: 193px;
+    top: 420px;
+    
+    background: #FFFFFF;
+    opacity: 0.3;
+  }
+  .rentagle-192 {
+    position: absolute;
+    width: 13px;
+    height: 2px;
+    left: 170px;
+    top: 420px;
+    
+    background: #FFFFFF;
+    opacity: 0.3;
+  }
+  .rentagle-195 {
+    position: absolute;
+    width: 159px;
+    height: 2px;
+    left: 216px;
+    top: 420px;
+    
+    background: #FFFFFF;
+    opacity: 0.3;
+  }
+  .vektor-1 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 161px;
+    top: 417px;
+    
+    border: 2px solid #FFFFFF;
+  }
+  .vektor-2 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 184px;
+    top: 417px;
+    
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+  .vektor-3 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 207px;
+    top: 417px;
+    
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
 }

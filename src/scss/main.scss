@@ -3,6 +3,7 @@
 @import "navbar";
 @import "content";
 @import "video";
+@import "projects";
 
 *{
   margin: 0;
@@ -16,4 +17,9 @@ body {
   height: 3018px;
   background: #FFFFFF;
   margin: auto;
+}
+@media screen and (max-width: 600px) {
+  body{
+    height: 100%;
+  }
 }

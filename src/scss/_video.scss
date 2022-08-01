@@ -10,3 +10,12 @@
   align-items: center;
   margin-top: 3rem;
 }
+@media screen and (max-width: 600px) {
+  .video {
+    position: absolute;
+    width: 100%;
+    height: 211px;
+    left: 0px;
+    top: 1028px;
+  }
+}
